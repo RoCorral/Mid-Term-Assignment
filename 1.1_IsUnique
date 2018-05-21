@@ -1,0 +1,11 @@
+def isUnique(s):
+    for i, let1 in enumerate(s):
+        count = 0
+        for j, let2 in enumerate(s):
+            if let2 is let1:
+                count = count+1
+            if count >1:
+                return False
+    return True
+
+print (isUnique("aehjvfsbkdc"))
