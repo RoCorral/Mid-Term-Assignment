@@ -1,0 +1,13 @@
+1.1 is unique
+
+I: we need to look at a series of letters and identify weather any of the letters appear more than once.
+
+D: we need to return a Boolean after checking the string, True if all letters are unique false if not.
+
+E,A: Using our simple case we see that it is as simple as looping through our string characters.for each character we loop again through the string and check how many times the same character shows up. If it appears more than once then return False other wise return True.
+
+The run time ends up being O(n^2)
+
+The test code is successful although the question does not state if case counts as making a character unique. But we could easily correct the problem by converting all characters to upper case or lower case first then making the comparison.
+
+L: this is the solution i could come up with without using alternate data structures. If a hash set could be implemented then our run time would decrease significantly as we need only check the set if it already contains a letter we are inserting if it does then the letter is not unique in the string
