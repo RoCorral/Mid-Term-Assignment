@@ -1,0 +1,19 @@
+string1 = "ABB"
+string2 = "BAAB"
+perm = dict()
+def isPermutation(s1,s2):
+    for i, Let1 in enumerate(s1):
+        perm[Let1] = 0
+        print(perm)
+    for i, Let1 in enumerate(s1):
+        if Let1 in perm.keys():
+            perm[Let1] += 1
+            print(perm)
+    for i, Let2 in enumerate(s2):
+        if Let2 in perm.keys():
+            perm[Let2] -= 1
+            print(perm)
+    if sum(perm.values()) is 0:
+        return True
+    return False
+print(isPermutation(string1,string2))
