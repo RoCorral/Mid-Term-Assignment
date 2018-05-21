@@ -1,0 +1,9 @@
+I: if their are two strings given then a method must discover if they are exactly the same except the arraignment of the letters
+
+D: The method will take in both string and make comparisons returning true or false depending on its findings.
+
+E,A: as per usual my syntax prevents me from getting the results I am looking for. Translating to python proves problematic. After learning a bit of the dictionary data structure i have completed the code by implementing 3 for loops. One creating keys and setting the values to 0 from string1. The second adding 1 to the value as we iterate the string1 again. And the third as we traverse string 2 and decrement the values in our dictionary. The resulting number will give us our answer. If our first string increases the sum of your values the second sting will neutralize them to zero only if it is a permutation of the first.
+
+Run time is O(n)
+
+L: one of the simplest mistakes i was making was trying to set the values and increment them within the same for loop this only created false values by resetting my incremented values every time the loop found 2 of the same letter. In a string. The solution was to separate the operations into their respective for loops.
