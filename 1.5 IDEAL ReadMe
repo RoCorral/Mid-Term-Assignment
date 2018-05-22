@@ -1,0 +1,11 @@
+I: given two string if we remove replace or add a character. Can one become the other with only one of these edits. 
+D : our method must return true or false depending on the findings we can iterate and compare both strings if more than one change has to be made to string a to become string b then return false
+
+EA: our algorithm has to contain three different types of checks. 
+-Do we need to add a letter or is the length of s1 1 less than s2
+-Do we need to remove a letter, is the length of s1 1 greater than s2 this happens to be the inverse of adding a letter
+-Are we looking to change one letter, are the strings equal in length.
+
+The Run Time Complexity is O(n)
+
+L:I have come to understand that some more complex solution will come out of problem solving rather than a one method catch all. Helper methods need to be included to check first and then pass the information to the apropriate methode for further inspection.
