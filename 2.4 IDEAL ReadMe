@@ -1,1 +1,6 @@
 
+I: Given a linked list with n elements we are provided with a value x that may be in the linked list. the object is to move all values equal to x into the second half of the list the and all nodes less than or equal to x are in the first half.
+
+D: we need to return the head of a linked list that contains all values equal to x at the end of the list and all values less then x in the beginning of the list.
+
+E,A: 
