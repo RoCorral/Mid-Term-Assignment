@@ -1,0 +1,18 @@
+class Node:
+    def init(self, val):
+        self.val=val
+        self.next=none
+Node head = Node.init(head,3)        
+values = {1,2,3,4,5,5,6,7,8,9,9,10}
+for i, l in enumerate(values):
+    temp = head
+    temp.next= init(temp,l)
+    temp =temp.next
+newtmp = head
+duptable = dict()
+while newtmp.next != None:
+    if duptable.conatins(newtmp.val):
+        if newtmp.next.next==None:
+            newtmp.next==None
+        newtmp.next=newtmp.next.next
+    duptable[newtmp.val]
