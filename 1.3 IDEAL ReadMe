@@ -1,0 +1,9 @@
+I: we need to create a method that takes in a string and returns the string with %20 in the spaces.
+
+D:the string needs to be traversed and searched for spaces. When we come across the space then the algorithm will replace the space and reassemble the words so that they continue as a string for example “bob is the man” should be "bob%20is%20the%20man”
+
+E,A: my algorythem while sucessfull in finding spaces and replacing them. i still have trouble coming up with the syntax that puts it back together correctly. i will be switching to java for the remainder of the assignment as i am not confident that i can acomplish it in the time required while learning the nueance of python syntax
+
+run time complexity O(n)
+
+L: I learned that tracking string character as replacing with more characters is not as straight foward as it seems. mostly because the size of the string increases and this needs to be tracked and compensated for.
