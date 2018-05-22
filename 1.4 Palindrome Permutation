@@ -1,0 +1,20 @@
+inp ="crackerjack kackjerckar"
+def palperm(s):
+ pal = dict()
+ for i, let in enumerate(s):
+     if let != " ":
+      pal[let]=0
+ for i, let in enumerate(s):
+     if let!= " ":
+      pal[let]+=1
+ print(pal)
+ oneodd = True
+ for i , (k, v) in enumerate(pal.items()):
+     print(pal[k])
+     if pal[k]%2 ==1:
+         if oneodd == True:
+             oneodd = False
+         else: 
+             return False
+ return True 
+print (palperm(inp))    
