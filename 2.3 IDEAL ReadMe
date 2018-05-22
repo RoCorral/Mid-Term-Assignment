@@ -1,1 +1,5 @@
-
+I:Given a linked list of n size we need to remove the middle element
+D:i need to return a linkedlist head after going through and removing our middle element and maintinging its structures
+E,A: My Solution Would be recursive. I could Pass a counter keeping track of the nodes in the lnked list as we make our way to the end  after which we could halve that number and decrement it on each return until 0 and remove the node. 
+-Another solution may be to have a runner temp that jumps nodes two times for every single traversal of another temp. by the time the end is reached by the double jumper the single jumping temp variable will be in the center the a simple reassignment of pointers.
+L:
