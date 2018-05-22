@@ -1,0 +1,7 @@
+I: Given a string derive weather the characters can be rearranged into a palindrome.
+
+D : We need to return true if our string contains even even amounts of all characters contained and one letter can be odd at max. 
+
+E,A:This can probably be achieve using a previous tactic where we add to the value of our key for every occurrence. by using a dictionary we can add to the value of a character key every time it occurs in a string and omit the spaces. once the string has been inspected then we can check the dictionary one key at a time if the remainder of the key value divided by 2 is one then it is a character with an odd number of occurrences in our string if it occurs more than once then automatically return false signaling that the string does not have a palindrome permutation.
+
+L: dictionaries are very in keeping track of occurrence data python makes traversal slightly easier than what i know of java.
