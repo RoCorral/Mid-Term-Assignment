@@ -1,0 +1,10 @@
+inpt ="Mr John Smith"
+space ="%20"
+def urlify(inp):
+    ninp =""
+    for i, let in enumerate(inp):
+        ninp = inp[:i+1]
+        if let is " ":
+            ninp = inp[:i] + space +inp[ i+1:]
+    return ninp
+print(urlify(inpt))        
