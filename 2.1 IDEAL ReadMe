@@ -1,0 +1,11 @@
+I: in an unsorted linked list we have n elements we are to remove any doubles that exist
+
+D : I need to return a linked list head that no longer contains the doubles it possibly had before.
+
+E,A: With the help of a dictionary we can check if an object exists already while traversing a linked list.
+While I currently cannot express the algorithm in python I know I am on the right track.  
+With a while loop to traverse the Linked list. We can first check if the list contains the next element in line . If not we add it to the dictionary and continue if we come across a value that already exists then simply asking the next pointer to the one after 
+
+I know a few small things are missing like checking the head vs whats next and checking rechecking if the next value is another duplicate.
+
+L: I learned that i still need to practice linked list implementation in python. As it slightly differs from that of java
