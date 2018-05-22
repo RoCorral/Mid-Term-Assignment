@@ -1,1 +1,12 @@
 
+I: in a single linked list of n nodes in length return the Kth to last element
+D: after traversal of the linked list i need to return the value in a position k from the last 
+  the method will probably contain a linked list traversal paired with a runner ahead of it.
+E,A: My solution is to for loop a temporary node pointer k nodes in front of the head.
+    once the temp var has reached its position then we can have another temp variable  
+    traverse the linked list updating both pointers on each temp. once the runner has reached the end
+    we know our other tmp is in the position kth from the end and we can return the value
+    
+    the time complexity would be O(n)
+L: we where able to study this problem in class which helped illuminate the ability of using a "runner" variable
+
